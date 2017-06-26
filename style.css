@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #2DCB89;
+    font-family: 'Lato', serif;
+    color: #fff;
+}
+
+.register-header {
+    margin: 0px;
+    padding: 0px;
+    background: #26C281;
+    min-height: 250px;
+}
+
+.register-header h1 {
+    margin: 0px;
+    font-size: 38px;
+    text-align: center;
+    line-height: 150px;
+    color: #187F64;
+}
+
+.register-header h2 {
+    margin: 0px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 0px;
+    color: #1C9361;
+}
+
+.register-body {
+    margin: 0px;
+    padding: 150px 220px 0px 220px;
+}
+
+.register-body h2 {
+    color: #19724D;
+    font-size: 34px;
+}
+
+.register-body input[type=text],
+.register-body input[type=email],
+.register-body input[type=password] {
+    margin: 0px;
+    background: #28B67B;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 10px solid #2BC182;
+    width: 80%;
+    height: 120px;
+    font-size: 30px;
+    padding: 20px 30px;
+}
+
+.register-body input[type=text]:active,
+.register-body input[type=text]:focus,
+.register-body input[type=email]:active,
+.register-body input[type=email]:focus,
+.register-body input[type=password]:active,
+.register-body input[type=password]:focus {
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 10px solid #2BC182;
+    outline-width: 0;
+}
+
+.register-body button {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    background: #28B67B;
+    width: 20%;
+    height: 120px;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 10px solid #2BC182;
+}
+
+.register-body button:hover,
+.register-body button:focus {
+    outline-width: 0;
+}
+
+.gonder {
+    margin: 56px auto 0px auto;
+    padding: 0px;
+    background: #28B67B;
+    width: 100%;
+    font-size: 40px;
+    height: 120px;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 10px solid #2BC182;
+}
+
+.gonder:hover,
+.gonder:focus {
+    outline-width: 0;
+}
+
+.register-body span {
+    font-size: 30px;
+    color: #145B3D;
+}
+
+.register-body h3 {
+    font-size: 17px;
+    font-style: italic;
+    color: #000;
+}
+
+.show {
+    display: none;
+}
+
+.show {
+    display: block;
+}
